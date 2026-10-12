@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerSaathi | Career Counselling</title>
+    <meta name="description" content="Explore vocational career pathways with your family." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="logo">C<span>+</span></span>
+        <span>CareerSaathi<small>STUDENT + FAMILY</small></span>
+      </a>
+      <button id="menuToggle" class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav id="nav">
+        <a href="#how">How it works</a>
+        <a href="#assessment">Explore careers</a>
+        <a href="#family">For families</a>
+        <a href="#assistant">Career assistant</a>
+      </nav>
+      <label class="language-picker">
+        <span class="visually-hidden">Choose display language</span>
+        <select id="language" aria-label="Choose display language">
+          <option>English</option>
+          <option>Telugu</option>
+          <option>Hindi</option>
+          <option>Marathi</option>
+          <option>Kannada</option>
+          <option>Tamil</option>
+          <option>Malayalam</option>
+          <option>Bengali</option>
+          <option>Urdu</option>
+        </select>
+      </label>
+      <a class="nav-cta" href="#assessment">Start assessment ↗</a>
+    </header>
+
+    <main>
+      <section class="hero wrap" id="home">
+        <div>
+          <span class="eyebrow">VOCATIONAL CAREER DECISION SUPPORT</span>
+          <h1>Your skills can shape<br />your <em>future.</em></h1>
+          <p class="lead">
+            A clearer way for students and families to explore skill-based careers,
+            compare training options, and make informed decisions together.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#assessment">Find my career path →</a>
+            <a class="btn quiet" href="#how">◎ See how it works</a>
+          </div>
+          <div class="trust">
+            <span class="trust-icon">S</span>
+            <span class="trust-icon purple">P</span>
+            <span class="trust-icon gold">✓</span>
+            <div>
+              <b>Student + parent, together</b>
+              <small>Explore options. Ask questions. Decide with evidence.</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="grid-bg"></div>
+          <div class="orbit"></div>
+          <div class="floating f1">↗ <span><b>Career growth</b><small>Explore progression routes</small></span></div>
+          <div class="career-card">
+            <div class="card-top">
+              <span class="pill">PATHWAY EXPLORER</span>
+            </div>
+            <small class="subtle">A future built around your strengths</small>
+            <h3>Skills → Opportunity</h3>
+            <div class="path">
+              <div class="node active">01<small>Discover</small></div>
+              <i></i>
+              <div class="node">02<small>Train</small></div>
+              <i></i>
+              <div class="node">03<small>Progress</small></div>
+            </div>
+            <p class="card-bottom">✓ Interests, training and next steps in one place</p>
+          </div>
+          <div class="floating f2">◎ <span><b>Family clarity</b><small>Questions answered together</small></span></div>
+        </div>
+      </section>
+
+      <section class="metrics wrap">
+        <div>
+          <i>⌘</i>
+          <span><b>Interest-led</b><small>Recommendations from your choices</small></span>
+        </div>
+        <div>
+          <i>◈</i>
+          <span><b>Family-inclusive</b><small>Concerns discussed together</small></span>
+        </div>
+        <div>
+          <i>↗</i>
+          <span><b>Progression-aware</b><small>Explore possible next steps</small></span>
+        </div>
+        <div>
+          <i>☏</i>
+          <span><b>Human support</b><small>Save a counselling request</small></span>
+        </div>
+      </section>
+
+      <section class="section wrap" id="how">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">A SIMPLE PROCESS</span>
+            <h2>From uncertainty to a<br /><em>clearer next step.</em></h2>
+          </div>
+          <p>
+            Career decisions are easier when students and families can see the same
+            information and ask the right questions.
+          </p>
+        </div>
+
+        <div class="steps">
+          <article>
+            <span class="step-art">⌕</span>
+            <small>01 / DISCOVER</small>
+            <h3>Discover interests</h3>
+            <p>Share education level, location, interests and family concerns.</p>
+          </article>
+          <article>
+            <span class="step-art lavender">◇</span>
+            <small>02 / COMPARE</small>
+            <h3>Compare pathways</h3>
+            <p>Review sample vocational areas and why each match was suggested.</p>
+          </article>
+          <article>
+            <span class="step-art blue">↗</span>
+            <small>03 / DISCUSS</small>
+            <h3>Decide together</h3>
+            <p>Discuss costs, safety, training quality and future progression.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="assessment" id="assessment">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">YOUR CAREER EXPLORER</span>
+              <h2>Let’s find your <em>starting point.</em></h2>
+            </div>
+            <p>Complete this short assessment to see sample pathways matched to your interests.</p>
+          </div>
+
+          <div class="assessment-layout">
+            <form id="assessmentForm" class="panel">
+              <div class="panel-head">
+                <div>
+                  <h3>Student profile</h3>
+                  <small>Tell us a little about yourself.</small>
+                </div>
+                <span class="required">* Required</span>
+              </div>
+
+              <div class="form-grid">
+                <label>
+                  Student name *
+                  <input id="studentName" required minlength="2" maxlength="80" placeholder="Enter your name" />
+                </label>
+
+                <label>
+                  Current education *
+                  <select id="education" required>
+                    <option value="">Choose education</option>
+                    <option value="8th">8th</option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="ITI">ITI</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Post Graduate">Post Graduate</option>
+                    <option value="PhD">PhD</option>
+                    <option value="Dropped out">Dropped out</option>
+                  </select>
+                </label>
+
+                <label class="full">
+                  District / town *
+                  <input id="location" required minlength="2" maxlength="100" placeholder="e.g. Nashik, Maharashtra" />
+                </label>
+
+              </div>
+
+              <div class="choice-group">
+                <div class="choice-head">
+                  <h4>What are you interested in?</h4>
+                  <small>Select all that apply</small>
+                </div>
+                <div class="choices">
+                  <label><input type="checkbox" name="interest" value="Electronics" />⌁ Electronics</label>
+                  <label><input type="checkbox" name="interest" value="Electrical" />ϟ Electrical</label>
+                  <label><input type="checkbox" name="interest" value="Technology" />⌘ Technology</label>
+                  <label><input type="checkbox" name="interest" value="Automobile" />↗ Automobile</label>
+                  <label><input type="checkbox" name="interest" value="Healthcare" />＋ Healthcare</label>
+                  <label><input type="checkbox" name="interest" value="Manufacturing" />⚙ Manufacturing</label>
+                  <label><input type="checkbox" name="interest" value="Retail" />▤ Retail</label>
+                  <label><input type="checkbox" name="interest" value="Hospitality" />✧ Hospitality</label>
+                </div>
+              </div>
+
+              <div class="choice-group">
+                <div class="choice-head">
+                  <h4>What matters most to your family?</h4>
+                  <small>Select all that apply</small>
+                </div>
+                <div class="concerns">
+                  <label><input type="checkbox" name="concern" value="Salary" />Earning potential</label>
+                  <label><input type="checkbox" name="concern" value="Job security" />Job security</label>
+                  <label><input type="checkbox" name="concern" value="Career growth" />Career growth</label>
+                  <label><input type="checkbox" name="concern" value="Safety" />Safety</label>
+                  <label><input type="checkbox" name="concern" value="Further education" />Further education</label>
+                  <label><input type="checkbox" name="concern" value="Training quality" />Training quality</label>
+                  <label><input type="checkbox" name="concern" value="Family acceptance" />Family acceptance</label>
+                  <label><input type="checkbox" name="concern" value="Travel and location" />Travel and location</label>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn primary" type="submit">Get my pathway matches →</button>
+                <span id="assessmentStatus" role="status"></span>
+              </div>
+
+              <p class="privacy">
+                Demo note: details are stored in a local SQLite database on the computer
+                running the app. Use sample details for presentations.
+              </p>
+            </form>
+
+            <aside class="family-card">
+              <span class="pill">BUILT FOR BOTH SIDES</span>
+              <h3>A decision that includes the whole family.</h3>
+              <p>
+                Students bring their interests. Families bring their questions. Put both
+                into the conversation.
+              </p>
+              <ul>
+                <li>✓ Understand why a pathway was suggested</li>
+                <li>✓ Discuss course quality and safety</li>
+                <li>✓ Ask about further study and career growth</li>
+                <li>✓ Save a human counselling request</li>
+              </ul>
+              <blockquote>
+                “A skill-based pathway is worth exploring when it fits the learner, the
+                training is credible, and the next steps are clear.”
+              </blockquote>
+            </aside>
+          </div>
+
+          <div id="recommendationSection" class="hidden results">
+            <div class="section-head">
+              <div>
+                <span class="eyebrow">YOUR EXPLORATION RESULTS</span>
+                <h2>Pathways to <em>look into.</em></h2>
+              </div>
+              <b id="resultCount"></b>
+            </div>
+            <p id="recommendationNotice" class="notice"></p>
+            <div id="tradeList" class="trade-grid"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap family-section" id="family">
+        <div class="family-graphic" aria-hidden="true">
+          <div class="family-circle"><span>◎</span></div>
+          <div class="family-bubble bubble-one">✓ Family questions</div>
+          <div class="family-bubble bubble-two">↗ Better fit</div>
+          <div class="family-bubble bubble-three">◎ Shared decision</div>
+        </div>
+
+        <div class="family-copy">
+          <span class="eyebrow">FOR FAMILIES</span>
+          <h2>Support the next step with <em>clarity, not pressure.</em></h2>
+          <p>
+            Explore the trade, understand the training route, and review the practical
+            questions at the family level before making a decision.
+          </p>
+          <div class="family-points">
+            <div>
+              <b>01</b>
+              <span>Check recognition and local training quality.</span>
+            </div>
+            <div>
+              <b>02</b>
+              <span>Review safety, travel, fees and job potential together.</span>
+            </div>
+            <div>
+              <b>03</b>
+              <span>Compare career progression and additional education routes.</span>
+            </div>
+          </div>
+          <a class="text-link" href="#assistant">Ask the career assistant →</a>
+        </div>
+      </section>
+
+      <section class="assistant" id="assistant">
+        <div class="wrap assistant-layout">
+          <div class="assistant-copy">
+            <span class="eyebrow">CAREER ASSISTANT</span>
+            <h2>Ask questions before the next <em>big step.</em></h2>
+            <p>
+              Explore practical questions about salary, safety, family concerns,
+              training recognition and further education in a simple demo format.
+            </p>
+            <div class="prompts">
+              <button type="button">What careers are best for my interests?</button>
+              <button type="button">How do I verify training quality?</button>
+              <button type="button">What should my family ask before enrolling?</button>
+            </div>
+          </div>
+
+          <div class="chat-panel">
+            <div class="chat-header">
+              <span class="chat-dot"></span>
+              <b>CareerSaathi Assistant</b>
+            </div>
+            <div id="chatMessages" class="chat-messages" aria-live="polite">
+              <div class="message bot">
+                <p>Ask about salary, training quality, safety, family concerns or progression.</p>
+              </div>
+            </div>
+            <form id="chatForm" class="chat-form">
+              <input
+                id="chatMessage"
+                class="chat-input"
+                type="text"
+                maxlength="1000"
+                placeholder="Ask a question about careers, fees or safety…"
+                aria-label="Ask the career assistant"
+              />
+              <button id="askButton" class="btn primary" type="submit">Ask</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap counsellor-section" id="counsellor">
+        <div class="counsellor-card panel">
+          <div class="section-head compact">
+            <div>
+              <span class="eyebrow">REQUEST SUPPORT</span>
+              <h2>Save a counselling <em>follow-up.</em></h2>
+            </div>
+            <button id="openCounsellor" type="button" class="btn primary">Request a counsellor call ↗</button>
+          </div>
+
+          <form id="counsellorForm" class="hidden">
+            <div class="form-grid two-col">
+              <label>
+                Student name
+                <input id="requestName" required minlength="2" maxlength="80" placeholder="Enter student's name" />
+              </label>
+              <label>
+                Contact details
+                <input id="requestContact" required minlength="5" maxlength="100" placeholder="Phone or email" />
+              </label>
+              <label>
+                Preferred language
+                <select id="requestLanguage">
+                  <option>English</option>
+                  <option>Telugu</option>
+                  <option>Hindi</option>
+                  <option>Marathi</option>
+                  <option>Kannada</option>
+                  <option>Tamil</option>
+                  <option>Malayalam</option>
+                  <option>Bengali</option>
+                  <option>Urdu</option>
+                </select>
+              </label>
+              <label>
+                Main concern
+                <input id="requestConcern" required minlength="2" maxlength="120" placeholder="e.g. safety, fees, trainings" />
+              </label>
+              <label class="full">
+                Message
+                <textarea id="requestMessage" rows="4" maxlength="1000" placeholder="Tell us what support you need."></textarea>
+              </label>
+            </div>
+            <div class="form-actions small-gap">
+              <button class="btn primary" type="submit">Save request</button>
+              <button id="closeCounsellor" class="btn quiet" type="button">Close</button>
+              <span id="requestStatus" role="status"></span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="wrap admin">
+        <details open>
+          <summary>
+            Prototype dashboard <span>Show details</span>
+          </summary>
+          <div class="admin-controls">
+            <button id="loadAdmin" class="btn quiet" type="button">Refresh dashboard</button>
+          </div>
+          <div id="adminSummary" class="admin-grid"></div>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer">
+        <a class="brand" href="#home">
+          <span class="logo">C<span>+</span></span>
+          <span>CareerSaathi<small>DEMO</small></span>
+        </a>
+        <p>Rule-based prototype for vocational counselling discussions.</p>
+        <small>Use sample data only. Verify with official providers.</small>
+      </div>
+    </footer>
+
+    <script src="/script.js?v=languages-20261011-8"></script>
+  </body>
+</html>
